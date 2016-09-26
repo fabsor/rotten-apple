@@ -2,7 +2,7 @@
 
 PROJECT_DIR="$HOME/projects"
 
-# Trust one. The php70 package is currently broken.
+# Trust no one. The php70 package is currently broken.
 brew install --build-from-source homebrew/php/php70
 
 # The other packages should be fine.
