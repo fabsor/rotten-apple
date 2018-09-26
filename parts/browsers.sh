@@ -1,3 +1,3 @@
 #!/bin/bash
 
-brew cask install google-chrome caskroom/versions/firefoxdeveloperedition
+brew cask install chromium firefox-developer-edition
