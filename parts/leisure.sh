@@ -2,4 +2,4 @@
 
 # You need some distractions. This is it.
 
-brew cask install spotify telegram slack hipchat
+brew cask install spotify slack signal
