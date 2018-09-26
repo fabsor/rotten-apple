@@ -5,8 +5,8 @@
 # Friends don't let friends run emacs in a terminal.
 # Emacs deserves it's own window. and then you run a terminal
 # in emacs. Get on the emacs bus.
-brew cask install emacs
+#brew cask install emacs
 
-if [ ! -f .emacs.d/personal/personal.el ]; then
-    curl -L http://git.io/DOC7Sg | sh
+if [ ! -f $HOME/.emacs.d/init.el ]; then
+    git clone https://github.com/fabsor/emacs-reborn.git $HOME/.emacs.d
 fi
